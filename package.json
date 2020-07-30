@@ -1,0 +1,36 @@
+{
+  "name": "smelter",
+  "version": "1.0.0",
+  "description": "The Package Manager for Sand lang",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build:winx64": "pkg . --targets latest-win-x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sand-lang/Smelter.git"
+  },
+  "author": "HarryET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sand-lang/Smelter/issues"
+  },
+  "homepage": "https://github.com/sand-lang/Smelter#readme",
+  "pkg": {
+    "scripts": "dist/**/*.js",
+    "assets": [
+      "node_modules/**/*",
+      "assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.0.3",
+    "cli-spinners": "^2.4.0",
+    "commander": "^6.0.0",
+    "fast-xml-parser": "^3.17.4"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2"
+  }
+}
