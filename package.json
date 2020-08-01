@@ -28,9 +28,11 @@
     "@octokit/rest": "^18.0.3",
     "cli-spinners": "^2.4.0",
     "commander": "^6.0.0",
-    "fast-xml-parser": "^3.17.4"
+    "tar": "^6.0.2",
+    "yaml": "^1.10.0"
   },
   "devDependencies": {
-    "@types/commander": "^2.12.2"
+    "@types/commander": "^2.12.2",
+    "@types/tar": "^4.0.3"
   }
 }
